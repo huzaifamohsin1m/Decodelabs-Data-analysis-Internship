@@ -1,0 +1,5 @@
+Change ID,Description,Impact,Status
+CR001,Deduplication Audit,Verified zero duplicate rows (Removed 0 duplicates). 0% Error Rate on unique IDs.,Resolved
+CR002,Imputed missing 'CouponCode' values,"Categorized 0 null values as 'NO_COUPON' (Preserved 100% statistical power / 1,200 rows).",Resolved
+CR003,Standardized 'Date' column to ISO 8601,Formatted all transaction dates to YYYY-MM-DD string format (0% Error Rate).,Resolved
+CR004,Trimmed leading/trailing whitespaces,Applied string trimming across 10 text columns.,Resolved
