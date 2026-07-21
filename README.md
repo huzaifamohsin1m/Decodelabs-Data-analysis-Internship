@@ -1,1 +1,27 @@
-# Decodelabs-Data-analysis-Internship
+# DecodeLabs Data Analytics Internship
+
+Welcome to my official repository for the **DecodeLabs Data Analytics Internship**. This repository serves as a portfolio documenting my weekly projects, data pipelines, analytical workflows, and technical progress.
+
+---
+
+## Internship Progress & Roadmap
+
+| Week | Module / Project Focus | Primary Tools | Status | Documentation |
+| :---: | :--- | :--- | :---: | :---: |
+| **01** | **Data Integrity & Cleaning** | Python, Pandas, Jupyter Notebook | ✅ Completed | [View Week 1](./Week_01_Data_Cleaning/) |
+| **02** | *Upcoming Module* | TBD | ⏳ Pending | - |
+| **03** | *Upcoming Module* | TBD | ⏳ Pending | - |
+| **04** | *Upcoming Module* | TBD | ⏳ Pending | - |
+
+---
+
+## Tech Stack & Skills Developed
+* **Languages:** Python
+* **Libraries:** Pandas, NumPy, OpenPyXL
+* **Environment:** Jupyter Notebook, GitHub
+* **Core Competencies:** Data Wrangling, Imputation, Quality Auditing, Traceability & Change Logging
+
+---
+
+## Author
+* **Muhammad Huzaifa Mohsin**
