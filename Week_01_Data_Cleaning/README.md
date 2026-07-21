@@ -1,7 +1,7 @@
 # Week 01: Data Integrity & Cleaning Pipeline
 
 ## Overview
-This week focused on **Data Integrity and Preparation**—the foundational 80% phase of data analytics. The objective was to audit, sanitize, and standardize a raw ecommerce dataset containing 1,200 records to achieve a **0% Error Rate** on key data quality metrics.
+This week focused on **Data Integrity and Preparation**, the foundational 80% phase of data analytics. The objective was to audit, sanitize, and standardize a raw ecommerce dataset containing 1,200 records to achieve a **0% Error Rate** on key data quality metrics.
 
 ---
 
