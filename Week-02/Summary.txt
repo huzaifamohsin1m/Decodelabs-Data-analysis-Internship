@@ -1,0 +1,30 @@
+Summary:
+
+Problem Statement:
+DecodeLabs requested an exploratory data analysis on a 1,200-order transaction dataset to understand purchasing patterns, detect potential data anomalies, and identify key revenue drivers before developing predictive models or BI dashboards.
+
+Methodology:
+1. Data sanitisation: Applied standard transformations, imputing missing coupon values (NO_COUPON) and stripping trailing whitespace across text fields.
+2. Univariate & Distribution Analysis: Computed the 5-Number Summary and evaluated distribution skewness across continuous variables (Quantity, UnitPrice, ItemsInCart, TotalPrice).  
+3. Anomaly Detection: Applied IQR and Z-Score thresholds to flag potential outliers and categorise them as noise or signal.  
+4. Bivariate Correlation: Calculated Pearson Correlation Coefficients (r) to identify relationship dynamics between price, quantity, cart size, and order totals.
+
+Key Findings & Signals: 
+1. Right-Skewed Revenue Distribution: Total revenue across all 1,200 orders reached $1,264,761.96. 
+The order total distribution is right-skewed ($+0.89$), pulling the mean ($1,053.97) above the median ($823.62).  
+2. Business Impact: Reporting the median provides a more accurate baseline for typical customer spending, as the mean is elevated by high-value bulk purchases. 
+
+High-Value Signals (Outlier Analysis): 
+IQR Detection: Flagged 8 transactions exceeding the upper bound of $3,330.41. 
+Z-Score Detection: Flagged 0 transactions beyond |Z| > 3.
+Business Impact: These 8 transactions are valid business signals (large bulk purchases) rather than data entry errors. They should be retained for segmenting VIP business customers.
+
+Primary Revenue Drivers (Correlation Insights): 
+Unit Price Dominance (r = +0.72): Product pricing has the strongest positive impact on total order revenue. 
+Quantity & Cart Cross-Selling (r = +0.65): Customers who purchase higher quantities of a specific product also build larger overall shopping carts. 
+Inelastic Demand Behaviour (r = +0.01): Unit price shows almost no correlation with purchase quantity, indicating customers purchase premium products without significantly scaling back item volume.
+
+Actionable Recommendations: 
+Protect and Target High-Value Customers (VIP Tier): Create a dedicated retention track for the top-tier bulk buyers (orders exceeding $3,300) to incentivize recurring high-volume orders. 
+Capitalize on Cross-Selling Opportunities: Given the strong correlation between item quantity and total cart size (r = +0.65), implement automated "frequently bought together" recommendations at checkout to increase basket size. 
+Optimize Premium Product Exposure: Since unit price drives total order size (r = +0.72) without dampening quantity ordered (r = +0.01), feature higher-end product categories (Chairs, Printers, Laptops) prominently on the homepage to drive higher average order value (AOV).
