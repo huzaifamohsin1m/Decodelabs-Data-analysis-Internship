@@ -10,7 +10,7 @@ Welcome to my official repository for the **DecodeLabs Data Analytics Internship
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | **Data Integrity & Cleaning** | Python, Pandas, Jupyter Notebook | Completed | [View Week 1](./Week_01_Data_Cleaning/) |
 | **02** | **Exploratory Data Analysis (EDA)** | Python, Pandas, NumPy, Matplotlib & Seaborn, Jupyter Notebook | Completed | [View Week-02](https://github.com/huzaifamohsin1m/Decodelabs-Data-analysis-Internship/tree/main/Week-02) |
-| **03** | **SQL Data Analysis** | RDBMS, SQL Query Architecture, Execution Logic Optimization, Data Aggregation & Wrangling | ⏳ Pending | Completed |
+| **03** | **SQL Data Analysis** | RDBMS, SQL Query Architecture, Execution Logic Optimization, Data Aggregation & Wrangling | Completed | [View Week 03](https://github.com/huzaifamohsin1m/Decodelabs-Data-analysis-Internship/tree/main/Week%2003) |
 | **04** | *Upcoming Module* | TBD | ⏳ Pending | - |
 
 ---
